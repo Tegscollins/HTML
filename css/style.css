@@ -1,0 +1,48 @@
+  *{
+    margin: 0px
+    padding; 0px
+}
+ body, html{
+     height: 100%;
+ }
+ header{
+     width: 100%;
+     border: none;
+     [padding: 20px;
+     text-align: center;
+     font-family: 'Trebuchet Ms','Lucida sans Unicode','Lucida Grande','Lucida Sans',Arial, sans-serif;
+     color; blue;
+     letter-spacing: 5px;
+     background-image: linearGradient(60deg,#edc7b7, #ffcb9a);
+     text-shadow: 1px 1px black;
+     outline: none;
+
+ }
+ header #logoText{
+     color; crimson;
+     text-shadow:1px 1px 5px black;
+ }
+ nav{
+     width: 100%;
+     background-color: azure
+ }
+ nav ul{
+     border:1px solid black;
+     list-style-type: none;
+     text-align: center;
+ }
+ nav ul li{
+     display: inline-block;
+     padding: 0px 10px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     text-transorm; uppercase;
+ }
+ nav ul li:hover{
+     background-color: bisque;
+     padding: 10px;
+ }
+ nav ul li a:hover{
+     color; crimson
+ }
